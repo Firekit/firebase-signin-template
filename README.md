@@ -19,3 +19,8 @@
   "type" : 301
 } ],
 ```
+
+## Resources
+
+- [Firebase Javascript SDK](https://github.com/firebase/firebase-js-sdk)
+- [FirebaseUI for Web](https://github.com/firebase/firebaseui-web)
