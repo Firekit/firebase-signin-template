@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Firekit Sign in Template for Firebase">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>Sign in to app</title>
+
+    <!-- Resource Hints -->
+    <!-- https://github.com/Firekit/awesome-firebase-snippets -->
+    <!-- Preconnect for FirebaseUI. -->
+    <!-- Change PROJECT_ID for your Firebase Project ID. -->
+    <link rel="preconnect" href="https://PROJECT_ID.firebaseapp.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://www.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://www.gstatic.com">
+    <link rel="preconnect" href="https://apis.google.com">
+    <!-- Preconnect for Facebook Login. -->
+    <link rel="preconnect" href="https://platform-lookaside.fbsbx.com">
+    <!-- Preconnect for user photos. -->
+    <link rel="preconnect" href="https://lh1.googleusercontent.com">
+    <link rel="preconnect" href="https://lh2.googleusercontent.com">
+    <link rel="preconnect" href="https://lh3.googleusercontent.com">
+    <link rel="preconnect" href="https://lh4.googleusercontent.com">
+    <link rel="preconnect" href="https://lh5.googleusercontent.com">
+    <link rel="preconnect" href="https://lh6.googleusercontent.com">
+    <link rel="preconnect" href="https://lh7.googleusercontent.com">
+    <link rel="preconnect" href="https://lh8.googleusercontent.com">
+    <link rel="preconnect" href="https://lh9.googleusercontent.com">
+    <!-- Preconnect for Firebase Storage. -->
+    <link rel="preconnect" href="https://firebasestorage.googleapis.com">
+
+    <!-- The core Firebase JS SDK is always required and must be listed first. -->
+    <script src="node_modules/firebase/firebase-app.js"></script>
+    <script src="node_modules/firebase/firebase-auth.js"></script>
+
+    <!-- Add SDKs for Firebase products that you want to use.
+         https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script src="node_modules/firebaseui/dist/firebaseui.js"></script>
+
+    <script src="signin.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="node_modules/firebaseui/dist/firebaseui.css" />
+
+    <style>
+      h1 {
+        text-align: center;
+        margin-bottom: 56px;
+      }
+
+      #loader {
+        text-align: center;
+      }
+
+      @media screen and (min-width: 600px) and (min-height: 480px) {
+        h1 {
+          margin: 128px 0 64px 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- The surrounding HTML is left untouched by FirebaseUI.
+         Your app may use that space for branding, controls and other customizations.-->
+    <h1>Sign in to app</h1>
+    <div id="firebaseui-auth-container"></div>
+    <div id="loader">Loading...</div>
+  </body>
+</html>
