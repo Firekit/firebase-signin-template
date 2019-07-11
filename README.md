@@ -6,7 +6,7 @@
 
 2. Install this packages: `npm install firebase firebaseui --save`
 
-3. Setup rewrite and redirect in file `firebase.json`:
+3. Setup rewrite and redirect in the file `firebase.json`:
 
 ```json
 "rewrites": [ {
