@@ -143,6 +143,10 @@ var uiConfig = {
   privacyPolicyUrl,
 };
 
+function handleUIError(error) {
+  console.error(error);
+}
+
 function start() {
   // Initialize Firebase.
   firebase.initializeApp(firebaseConfig);
@@ -150,6 +154,6 @@ function start() {
   var ui = new firebaseui.auth.AuthUI(firebase.auth());
   // The start method will wait until the DOM is loaded.
   ui.start('#firebaseui-auth-container', uiConfig);
-};
+}
 
 start();
