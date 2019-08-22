@@ -103,9 +103,8 @@ var uiConfig = {
     },
     {
       provider: firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-      scopes: [
-        'https://www.googleapis.com/auth/contacts.readonly',
-      ],
+      // https://developers.google.com/identity/protocols/googlescopes
+      // scopes: ['email'],
       // customParameters: {
       //   // Forces account selection even when one account
       //   // is available.
