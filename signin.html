@@ -7,20 +7,20 @@
 
     <title>Sign in to app</title>
 
-    <!-- Resource Hints -->
-    <!-- https://github.com/Firekit/awesome-firebase-snippets -->
     <!-- Preconnect for FirebaseUI. -->
-    <!-- Change PROJECT_ID for your Firebase Project ID. -->
-    <link rel="preconnect" href="https://PROJECT_ID.firebaseapp.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://www.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://www.gstatic.com">
-    <link rel="preconnect" href="https://apis.google.com">
+    <!-- CHANGE PROJECT_ID for your Firebase Project ID. -->
+    <link rel="preconnect" href="https://PROJECT_ID.firebaseapp.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://www.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://apis.google.com" crossorigin>
+    
     <!-- Preconnect for Facebook Login. -->
-    <link rel="preconnect" href="https://platform-lookaside.fbsbx.com">
+    <link rel="preconnect" href="https://platform-lookaside.fbsbx.com" crossorigin>
+    
     <!-- Preconnect for user photos. -->
-    <link rel="preconnect" href="https://lh1.googleusercontent.com">
+    <!-- <link rel="preconnect" href="https://lh1.googleusercontent.com">
     <link rel="preconnect" href="https://lh2.googleusercontent.com">
     <link rel="preconnect" href="https://lh3.googleusercontent.com">
     <link rel="preconnect" href="https://lh4.googleusercontent.com">
@@ -28,17 +28,11 @@
     <link rel="preconnect" href="https://lh6.googleusercontent.com">
     <link rel="preconnect" href="https://lh7.googleusercontent.com">
     <link rel="preconnect" href="https://lh8.googleusercontent.com">
-    <link rel="preconnect" href="https://lh9.googleusercontent.com">
-    <!-- Preconnect for Firebase Storage. -->
-    <link rel="preconnect" href="https://firebasestorage.googleapis.com">
+    <link rel="preconnect" href="https://lh9.googleusercontent.com"> -->
 
     <!-- The core Firebase JS SDK is always required and must be listed first. -->
     <script src="node_modules/firebase/firebase-app.js"></script>
     <script src="node_modules/firebase/firebase-auth.js"></script>
-
-    <!-- Add SDKs for Firebase products that you want to use.
-         https://firebase.google.com/docs/web/setup#config-web-app -->
-
     <script src="node_modules/firebaseui/dist/firebaseui.js"></script>
 
     <script src="signin.js"></script>
@@ -48,6 +42,7 @@
     <style>
       body {
         font-family: 'Roboto', sans-serif;
+        background-color: #eaeaea;
       }
 
       h1 {
